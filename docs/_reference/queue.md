@@ -139,3 +139,7 @@ counts once, and the notification reports only the rows actually added.
     target: it plays from the current context, not from a list Spotifast
     can rewrite. While *Playing next* is empty, drop the song on the player
     bar's Queue button instead.
+In the experimental DJ build, **Next** still removes one row. **DJ** skips
+the remaining context songs in the current set and starts the next set with
+its DJ introduction. Your manually queued songs remain next after that
+chosen song; changing the DJ set does not clear them.

@@ -325,6 +325,9 @@ titles, some mixed with English, numbers, and brackets.
 visible while replacing the page content, with unfinished controls disabled.
 `--demo-language <TAG>` shows the interface in one of the bundled languages,
 such as `es` or `ja`, in place of the saved setting and the system's language.
+`queue`, `devices`, `shortcuts`, `premium`, `create`, `duplicate`, `light`,
+`focus`, `winamp`, `playlist`, `eq`, `eq-shade`, `compact`, `dj`, `dj-speaking`,
+and `dj-playlist` (an empty, sorted DJ placeholder for testing its Play button).
 
 `--demo-shot <PATH>` writes the window to a PNG and exits, which is useful for
 making deterministic screenshots for these pages:

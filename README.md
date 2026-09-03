@@ -171,6 +171,11 @@ everyday use, and connection details.
   unsynced lyrics when timestamps are unavailable. Full-screen lyrics scroll
   smoothly and highlight the playing line automatically, beside the song's
   cover; a song without words shows just its cover.
+- **Queue** as a side panel or a page; add anything to it from a row menu.
+- **Experimental Spotify DJ.** Plays Spotify's generated sets and narration.
+  The **DJ** button changes sets; ordinary Next still skips one song. Local DJ
+  playback keeps shuffle off. Text and voice requests stay in Spotify's app.
+  See [connection details](docs/_reference/how-it-connects.md#experimental-dj-receiver).
 - **Resumes the last session.** On startup, the last song is paused where it
   stopped. Play resumes it, and the other playback controls work before it
   starts.
