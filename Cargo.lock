@@ -2692,7 +2692,7 @@ dependencies = [
  "js-sys",
  "log",
  "wasm-bindgen",
- "windows-core 0.61.2",
+ "windows-core 0.62.2",
 ]
 
 [[package]]
@@ -3269,6 +3269,7 @@ dependencies = [
 [[package]]
 name = "librespot-audio"
 version = "0.8.0"
+source = "git+https://github.com/aparmor2/librespot?branch=spotify-dj#d4d0b8b2637851692ed2761fdbc6a44b3aa2a1a6"
 dependencies = [
  "aes 0.8.4",
  "bytes",
@@ -3287,6 +3288,7 @@ dependencies = [
 [[package]]
 name = "librespot-connect"
 version = "0.8.0"
+source = "git+https://github.com/aparmor2/librespot?branch=spotify-dj#d4d0b8b2637851692ed2761fdbc6a44b3aa2a1a6"
 dependencies = [
  "futures-util",
  "librespot-core",
@@ -3305,6 +3307,7 @@ dependencies = [
 [[package]]
 name = "librespot-core"
 version = "0.8.0"
+source = "git+https://github.com/aparmor2/librespot?branch=spotify-dj#d4d0b8b2637851692ed2761fdbc6a44b3aa2a1a6"
 dependencies = [
  "aes 0.8.4",
  "base64",
@@ -3361,6 +3364,7 @@ dependencies = [
 [[package]]
 name = "librespot-metadata"
 version = "0.8.0"
+source = "git+https://github.com/aparmor2/librespot?branch=spotify-dj#d4d0b8b2637851692ed2761fdbc6a44b3aa2a1a6"
 dependencies = [
  "async-trait",
  "bytes",
@@ -3377,6 +3381,7 @@ dependencies = [
 [[package]]
 name = "librespot-oauth"
 version = "0.8.0"
+source = "git+https://github.com/aparmor2/librespot?branch=spotify-dj#d4d0b8b2637851692ed2761fdbc6a44b3aa2a1a6"
 dependencies = [
  "log",
  "oauth2",
@@ -3389,6 +3394,7 @@ dependencies = [
 [[package]]
 name = "librespot-playback"
 version = "0.8.0"
+source = "git+https://github.com/aparmor2/librespot?branch=spotify-dj#d4d0b8b2637851692ed2761fdbc6a44b3aa2a1a6"
 dependencies = [
  "form_urlencoded",
  "futures-util",
@@ -3413,6 +3419,7 @@ dependencies = [
 [[package]]
 name = "librespot-protocol"
 version = "0.8.0"
+source = "git+https://github.com/aparmor2/librespot?branch=spotify-dj#d4d0b8b2637851692ed2761fdbc6a44b3aa2a1a6"
 dependencies = [
  "protobuf",
  "protobuf-codegen",
