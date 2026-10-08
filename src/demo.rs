@@ -811,11 +811,7 @@ pub fn apply_flags(app: &mut App, page: Option<&str>, show: Option<&str>) {
                 app.local.track = Some(crate::player::LocalTrack {
                     uri: item.uri,
                     title: item.name,
-                    artists: item
-                        .artists
-                        .iter()
-                        .map(|artist| artist.name.clone())
-                        .collect(),
+                    artists: item.artists,
                     duration_ms: item.duration_ms,
                     art_url: item
                         .album

@@ -1330,11 +1330,7 @@ impl App {
             PlayableItem::Track(track) => crate::player::LocalTrack {
                 uri: track.uri,
                 title: track.name,
-                artists: track
-                    .artists
-                    .iter()
-                    .map(|artist| artist.name.clone())
-                    .collect(),
+                artists: track.artists,
                 album: track
                     .album
                     .as_ref()
@@ -1355,7 +1351,7 @@ impl App {
             preview,
             at: Instant::now(),
         });
-        self.expect_track(next.uri.clone());
+        self.expect_track(next.uri.clone(), 0);
         self.set_play_pending(vec![next.uri]);
         self.optimistic_playing = Some((true, Instant::now()));
         self.backend.player(PlayerCommand::DjNextSet(next.uid));

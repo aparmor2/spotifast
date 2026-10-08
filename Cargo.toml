@@ -268,7 +268,9 @@ winit = { git = "https://github.com/crmne/winit", rev = "ed7caa9023f10b397f5b6ec
 # projectm-sys 1.2.2 hardcodes the Visual Studio 17 2022 CMake generator,
 # which GitHub's windows-latest images no longer carry; the fork lets an
 # explicit CMAKE_GENERATOR win. Drop when upstream takes the change.
-projectm-sys = { git = "https://github.com/crmne/projectm-rs", branch = "respect-cmake-generator" }
+# Disabled in this fork: the pinned projectM submodule commit no longer exists
+# upstream, and the DJ build leaves MilkDrop out (--no-default-features).
+# projectm-sys = { git = "https://github.com/crmne/projectm-rs", branch = "respect-cmake-generator" }
 # hyper-proxy2's unreleased rustls 0.23 update plus our upstream provider
 # compatibility fix. Drop this fork when a release includes both changes.
 hyper-proxy2 = { git = "https://github.com/crmne/hyper-proxy2", rev = "efca4811371ddae81c06be168de54194938d70b1" }
